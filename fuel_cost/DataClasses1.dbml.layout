@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="66c0b3f1-52a7-48cf-81cb-41ba1821dcad" absoluteBounds="2.125, 2.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/costs" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6aaffe48-dbda-47f6-83ca-6fddbbfd4da1" absoluteBounds="2.14, 2.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="58d37ed8-8d87-4e37-b564-0b5ce73b9ec3" absoluteBounds="5.5, 2.375, 2, 1.0016910807291666">
+      <DataClassMoniker Name="/DataClasses1DataContext/new_costs" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d8594e96-35d8-42e5-a4c4-64dd77483aae" absoluteBounds="5.515, 2.835, 1.9700000000000002, 0.44169108072916663" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <inheritanceConnector edgePoints="[(4.125 : 2.87584554036458); (5.5 : 2.87584554036458)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="7a7fe09e-e9ef-4b01-9ff3-bde95e827b62">
+      <nodes>
+        <classShapeMoniker Id="66c0b3f1-52a7-48cf-81cb-41ba1821dcad" />
+        <classShapeMoniker Id="58d37ed8-8d87-4e37-b564-0b5ce73b9ec3" />
+      </nodes>
+    </inheritanceConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,13 @@
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\bin\Release\Database.mdf
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\bin\Release\Database_log.ldf
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\bin\Release\fuel_cost.exe.config
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\bin\Release\fuel_cost.exe
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\bin\Release\fuel_cost.pdb
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\bin\Release\fuel_cost.xml
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\obj\x86\Release\WindowsApplication1.Form1.resources
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\obj\x86\Release\WindowsApplication1.Resources.resources
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\obj\x86\Release\fuel_cost.vbproj.GenerateResource.Cache
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\obj\x86\Release\fuel_cost.exe
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\obj\x86\Release\fuel_cost.xml
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\obj\x86\Release\fuel_cost.pdb
+D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\obj\x86\Release\WindowsApplication1.Form2.resources
