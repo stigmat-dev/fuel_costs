@@ -10,8 +10,10 @@
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         'TODO: данная строка кода позволяет загрузить данные в таблицу "DatabaseDataSet2.costs". При необходимости она может быть перемещена или удалена.
         Me.CostsTableAdapter1.Fill(Me.DatabaseDataSet2.costs)
-        Server = "DESKTOP-NC6F157\SQLEXPRESS"
-        Base = "C:\Users\Стигмат\Desktop\Учет расходов на топливо\DATABASE.MDF"
+        'Server = "DESKTOP-NC6F157\SQLEXPRESS"
+        'Base = "C:\Users\Стигмат\Desktop\Учет расходов на топливо\DATABASE.MDF"
+        Server = "STIGMAT\SQLEXPRESS"
+        Base = "C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\DATABASE.MDF"
         Username = "sa"
         Password = "1111"
         GetConnect()

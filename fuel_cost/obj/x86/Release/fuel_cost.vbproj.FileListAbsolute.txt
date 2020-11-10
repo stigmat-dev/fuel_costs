@@ -11,3 +11,16 @@ D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\obj\x86\Release\fuel_cost.exe
 D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\obj\x86\Release\fuel_cost.xml
 D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\obj\x86\Release\fuel_cost.pdb
 D:\IT\VB.NET\Fuel\fuel_cost\fuel_cost\obj\x86\Release\WindowsApplication1.Form2.resources
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\bin\Release\Database.mdf
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\bin\Release\Database_log.ldf
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\bin\Release\fuel_cost.exe.config
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\bin\Release\fuel_cost.exe
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\bin\Release\fuel_cost.pdb
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\bin\Release\fuel_cost.xml
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\obj\x86\Release\WindowsApplication1.Form1.resources
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\obj\x86\Release\WindowsApplication1.Form2.resources
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\obj\x86\Release\WindowsApplication1.Resources.resources
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\obj\x86\Release\fuel_cost.vbproj.GenerateResource.Cache
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\obj\x86\Release\fuel_cost.exe
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\obj\x86\Release\fuel_cost.xml
+C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\obj\x86\Release\fuel_cost.pdb
