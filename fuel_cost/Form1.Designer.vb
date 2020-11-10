@@ -54,6 +54,7 @@ Partial Class Form1
         Me.BindingNavigatorMoveNextItem = New System.Windows.Forms.ToolStripButton()
         Me.BindingNavigatorMoveLastItem = New System.Windows.Forms.ToolStripButton()
         Me.BindingNavigatorSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.BindingNavigatorSaveItem = New System.Windows.Forms.ToolStripButton()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
         Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
@@ -62,6 +63,7 @@ Partial Class Form1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.CostsBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.DatabaseDataSet2 = New WindowsApplication1.DatabaseDataSet2()
         Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -171,6 +173,7 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button1.Location = New System.Drawing.Point(159, 118)
         Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -254,7 +257,7 @@ Partial Class Form1
         Me.CostsBindingNavigator1.CountItem = Me.BindingNavigatorCountItem
         Me.CostsBindingNavigator1.DeleteItem = Me.BindingNavigatorDeleteItem
         Me.CostsBindingNavigator1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.CostsBindingNavigator1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BindingNavigatorMoveFirstItem, Me.BindingNavigatorMovePreviousItem, Me.BindingNavigatorSeparator, Me.BindingNavigatorPositionItem, Me.BindingNavigatorCountItem, Me.BindingNavigatorSeparator1, Me.BindingNavigatorMoveNextItem, Me.BindingNavigatorMoveLastItem, Me.BindingNavigatorSeparator2, Me.BindingNavigatorAddNewItem, Me.BindingNavigatorDeleteItem})
+        Me.CostsBindingNavigator1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BindingNavigatorMoveFirstItem, Me.BindingNavigatorMovePreviousItem, Me.BindingNavigatorSeparator, Me.BindingNavigatorPositionItem, Me.BindingNavigatorCountItem, Me.BindingNavigatorSeparator1, Me.BindingNavigatorMoveNextItem, Me.BindingNavigatorMoveLastItem, Me.BindingNavigatorSeparator2, Me.BindingNavigatorAddNewItem, Me.BindingNavigatorDeleteItem, Me.BindingNavigatorSaveItem})
         Me.CostsBindingNavigator1.Location = New System.Drawing.Point(0, 614)
         Me.CostsBindingNavigator1.MoveFirstItem = Me.BindingNavigatorMoveFirstItem
         Me.CostsBindingNavigator1.MoveLastItem = Me.BindingNavigatorMoveLastItem
@@ -351,9 +354,20 @@ Partial Class Form1
         Me.BindingNavigatorSeparator2.Name = "BindingNavigatorSeparator2"
         Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 25)
         '
+        'BindingNavigatorSaveItem
+        '
+        Me.BindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.BindingNavigatorSaveItem.Image = Global.WindowsApplication1.My.Resources.Resources.Save_icon_icons_com_73702
+        Me.BindingNavigatorSaveItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.BindingNavigatorSaveItem.Name = "BindingNavigatorSaveItem"
+        Me.BindingNavigatorSaveItem.Size = New System.Drawing.Size(23, 22)
+        Me.BindingNavigatorSaveItem.Text = "Сохранить"
+        Me.BindingNavigatorSaveItem.ToolTipText = "Сохранить"
+        '
         'Button2
         '
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button2.Location = New System.Drawing.Point(342, 118)
         Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button2.Name = "Button2"
@@ -381,13 +395,17 @@ Partial Class Form1
         '
         'Button3
         '
+        Me.Button3.BackColor = System.Drawing.SystemColors.GrayText
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Image = Global.WindowsApplication1.My.Resources.Resources.Print
-        Me.Button3.Location = New System.Drawing.Point(484, 19)
+        Me.Button3.Location = New System.Drawing.Point(483, 19)
         Me.Button3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(36, 32)
+        Me.Button3.Size = New System.Drawing.Size(37, 33)
         Me.Button3.TabIndex = 32
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.ToolTip1.SetToolTip(Me.Button3, "Печать отчета")
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
@@ -435,6 +453,10 @@ Partial Class Form1
         Me.GroupBox2.TabIndex = 34
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "База"
+        '
+        'ToolTip1
+        '
+        Me.ToolTip1.Tag = "Button3"
         '
         'CostsBindingSource1
         '
@@ -503,7 +525,7 @@ Partial Class Form1
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.Text = "Учет расходов на топливо"
@@ -562,5 +584,7 @@ Partial Class Form1
     Friend WithEvents PrintPreviewDialog1 As System.Windows.Forms.PrintPreviewDialog
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents BindingNavigatorSaveItem As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
 
 End Class

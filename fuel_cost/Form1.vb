@@ -1,6 +1,6 @@
 ﻿Public Class Form1
 
-    Private Sub CostsBindingNavigator1SaveItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub BindingNavigatorSaveItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BindingNavigatorSaveItem.Click
         Me.Validate()
         Me.CostsBindingSource1.EndEdit()
         Me.TableAdapterManager1.UpdateAll(Me.DatabaseDataSet2)
@@ -13,7 +13,7 @@
         'Server = "DESKTOP-NC6F157\SQLEXPRESS"
         'Base = "C:\Users\Стигмат\Desktop\Учет расходов на топливо\DATABASE.MDF"
         Server = "STIGMAT\SQLEXPRESS"
-        Base = "C:\Users\Стигмат\Desktop\Fuel\fuel_cost\fuel_cost\DATABASE.MDF"
+        Base = "D:\IT\VB.NET\FUEL\FUEL_COST\FUEL_COST\DATABASE.MDF"
         Username = "sa"
         Password = "1111"
         GetConnect()

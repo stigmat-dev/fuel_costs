@@ -221,6 +221,7 @@
       <DependentUpon>Database.mdf</DependentUpon>
     </Content>
     <Content Include="fuel.ico" />
+    <None Include="Resources\Save_icon-icons.com_73702.ico" />
     <None Include="Resources\Print.png" />
     <None Include="Resources\Print_icon-icons.com_73705.png" />
     <None Include="Resources\logo.jpg" />
